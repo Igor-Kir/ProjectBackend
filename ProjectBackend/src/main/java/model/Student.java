@@ -1,16 +1,30 @@
 package model;
 
 import com.google.gson.annotations.SerializedName;
+
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlTransient;
+
+@XmlAccessorType(XmlAccessType.FIELD)
 public class Student {
-    @SerializedName("uniresityID")
-    private String universityId;
-    @SerializedName("studentName")
+
+    @SerializedName("fullName")
+    @XmlElement(name = "fullName")
     private String fullName;
+    @SerializedName("universityId")
+    @XmlElement(name = "universityId")
+    private String universityId;
+
     @SerializedName("faculty")
+    @XmlTransient
     private String faculty;
+    @XmlTransient
     @SerializedName("currentCourseNumber")
     private int currentCourseNumber;
     @SerializedName("avgExaScore")
+    @XmlElement(name = "avgExaScore")
     private float avgExamScore;
         public Student() {
         }

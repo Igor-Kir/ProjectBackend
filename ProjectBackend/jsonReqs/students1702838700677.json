@@ -1,0 +1,68 @@
+[
+  {
+    "fullName": "Петров П. А.",
+    "universityId": "0001-high",
+    "currentCourseNumber": 1,
+    "avgExaScore": 5.0
+  },
+  {
+    "fullName": "Алексеев С. В.",
+    "universityId": "0001-high",
+    "currentCourseNumber": 1,
+    "avgExaScore": 5.0
+  },
+  {
+    "fullName": "Соколов В. В.",
+    "universityId": "0004-high",
+    "currentCourseNumber": 1,
+    "avgExaScore": 4.8
+  },
+  {
+    "fullName": "Иванов А. Г.",
+    "universityId": "0001-high",
+    "currentCourseNumber": 3,
+    "avgExaScore": 4.8
+  },
+  {
+    "fullName": "Васильев В. П.",
+    "universityId": "0001-high",
+    "currentCourseNumber": 4,
+    "avgExaScore": 4.7
+  },
+  {
+    "fullName": "Козлов М. В.",
+    "universityId": "0002-high",
+    "currentCourseNumber": 2,
+    "avgExaScore": 4.6
+  },
+  {
+    "fullName": "Игнатьев М. М.",
+    "universityId": "0003-high",
+    "currentCourseNumber": 4,
+    "avgExaScore": 4.3
+  },
+  {
+    "fullName": "Фёдоров А. И.",
+    "universityId": "0002-high",
+    "currentCourseNumber": 3,
+    "avgExaScore": 4.2
+  },
+  {
+    "fullName": "Иванов И. А.",
+    "universityId": "0002-high",
+    "currentCourseNumber": 2,
+    "avgExaScore": 4.0
+  },
+  {
+    "fullName": "Витальев В. А.",
+    "universityId": "0001-high",
+    "currentCourseNumber": 2,
+    "avgExaScore": 4.0
+  },
+  {
+    "fullName": "Сидоров Е. Г.",
+    "universityId": "0004-high",
+    "currentCourseNumber": 2,
+    "avgExaScore": 3.9
+  }
+]

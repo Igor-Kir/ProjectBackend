@@ -2,16 +2,28 @@ package model;
 
 import com.google.gson.annotations.SerializedName;
 import enums.StudyProfile;
+
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlTransient;
+
+@XmlAccessorType(XmlAccessType.FIELD)
 public class University {
-    @SerializedName("id")
+    @SerializedName("universityId")
+    @XmlElement(name = "universityId")
     private String id;
     @SerializedName("fullName")
+    @XmlElement(name ="fullName")
     private String fullName;
     @SerializedName("shortName")
+    @XmlTransient
     private String shortName;
     @SerializedName("yearOfFoundation")
+    @XmlTransient
     private int yearOfFoundation;
     @SerializedName("mainProfile")
+    @XmlTransient
     private StudyProfile mainProfile;
     public University() {
     }
