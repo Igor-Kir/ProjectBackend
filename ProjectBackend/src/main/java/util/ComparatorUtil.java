@@ -4,15 +4,10 @@ import enums.UniversityComparator;
 import enums.StudentComparator;
 
 public class ComparatorUtil {
-
     private ComparatorUtil(){
-
     }
-
     public static comparator.StudentComparator getStudentComparator(StudentComparator studentComparator) {
-
         switch (studentComparator) {
-
             case FULL_NAME:
                 return new StudentFullNameComparator();
             case UNIVERSITY_ID:

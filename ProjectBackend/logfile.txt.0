@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-12-17T17:36:13.365085Z</date>
+  <millis>1702834573365</millis>
+  <nanos>85000</nanos>
+  <sequence>0</sequence>
+  <logger>Chief</logger>
+  <level>INFO</level>
+  <class>Chief</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Application started, Logger configured</message>
+</record>
+<record>
+  <date>2023-12-17T17:36:13.409090400Z</date>
+  <millis>1702834573409</millis>
+  <nanos>90400</nanos>
+  <sequence>1</sequence>
+  <logger>readerio.XlsReader</logger>
+  <level>INFO</level>
+  <class>readerio.XlsReader</class>
+  <method>readXlsUniversities</method>
+  <thread>1</thread>
+  <message>Excel reading started</message>
+</record>
+<record>
+  <date>2023-12-17T17:36:13.889469300Z</date>
+  <millis>1702834573889</millis>
+  <nanos>469300</nanos>
+  <sequence>2</sequence>
+  <logger>readerio.XlsReader</logger>
+  <level>INFO</level>
+  <class>readerio.XlsReader</class>
+  <method>readXlsUniversities</method>
+  <thread>1</thread>
+  <message>Excel reading finished successfully</message>
+</record>
+<record>
+  <date>2023-12-17T17:36:13.892470100Z</date>
+  <millis>1702834573892</millis>
+  <nanos>470100</nanos>
+  <sequence>3</sequence>
+  <logger>readerio.XlsReader</logger>
+  <level>INFO</level>
+  <class>readerio.XlsReader</class>
+  <method>readXlsStudents</method>
+  <thread>1</thread>
+  <message>Excel reading started</message>
+</record>
+<record>
+  <date>2023-12-17T17:36:13.914475600Z</date>
+  <millis>1702834573914</millis>
+  <nanos>475600</nanos>
+  <sequence>4</sequence>
+  <logger>readerio.XlsReader</logger>
+  <level>INFO</level>
+  <class>readerio.XlsReader</class>
+  <method>readXlsStudents</method>
+  <thread>1</thread>
+  <message>Excel reading finished successfully</message>
+</record>
+<record>
+  <date>2023-12-17T17:36:13.916476Z</date>
+  <millis>1702834573916</millis>
+  <nanos>476000</nanos>
+  <sequence>5</sequence>
+  <logger>util.StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>util.StatisticsUtil</class>
+  <method>createStatistics</method>
+  <thread>1</thread>
+  <message>Statistics module started</message>
+</record>
+<record>
+  <date>2023-12-17T17:36:13.926987400Z</date>
+  <millis>1702834573926</millis>
+  <nanos>987400</nanos>
+  <sequence>6</sequence>
+  <logger>util.StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>util.StatisticsUtil</class>
+  <method>createStatistics</method>
+  <thread>1</thread>
+  <message>Statistics module finished with 4 statistical objects</message>
+</record>
+<record>
+  <date>2023-12-17T17:36:13.927986500Z</date>
+  <millis>1702834573927</millis>
+  <nanos>986500</nanos>
+  <sequence>7</sequence>
+  <logger>readerio.XlsWriter</logger>
+  <level>INFO</level>
+  <class>readerio.XlsWriter</class>
+  <method>writeXlsStatistics</method>
+  <thread>1</thread>
+  <message>Excel writing started</message>
+</record>
+<record>
+  <date>2023-12-17T17:36:14.093716800Z</date>
+  <millis>1702834574093</millis>
+  <nanos>716800</nanos>
+  <sequence>8</sequence>
+  <logger>readerio.XlsWriter</logger>
+  <level>INFO</level>
+  <class>readerio.XlsWriter</class>
+  <method>writeXlsStatistics</method>
+  <thread>1</thread>
+  <message>Excel writing finished successfully</message>
+</record>
+<record>
+  <date>2023-12-17T17:36:14.094717500Z</date>
+  <millis>1702834574094</millis>
+  <nanos>717500</nanos>
+  <sequence>9</sequence>
+  <logger>Chief</logger>
+  <level>INFO</level>
+  <class>Chief</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Application finished</message>
+</record>
+</log>
